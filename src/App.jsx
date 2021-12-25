@@ -129,7 +129,7 @@ const App = () => {
 
   //Now we combine the memberAddresses and memberTokenamounts into a single array
   const memberList = useMemo(() => {
-    return memberAddresses.map((addresses) => {
+    return memberAddresses.map((address) => {
       return {
         address,
         tokenAmount: ethers.utils.formatUnits(
