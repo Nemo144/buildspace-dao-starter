@@ -4,7 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #000000;
+  /* background-image: ("scripts/assets/goats.jpg"); */
   color: #fff;
   overflow-x: hidden;
 }
@@ -14,7 +15,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -93,7 +94,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #000000;
 }
 
 .member-page form .card > div {
@@ -116,7 +117,7 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: #478902;
   color: #fff;
   border: none;
   font-weight: bold;
